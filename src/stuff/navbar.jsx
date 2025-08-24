@@ -10,7 +10,7 @@ function BootstrapNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Skillset">Skillset</Nav.Link>
+            <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Projects">Projects</Nav.Link>
             <Nav.Link href="#Awards">Awards</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
