@@ -1,8 +1,6 @@
-export const Home = () => {
-    return (
-        <div className='mainDiv'>
-            Home
-        </div>
-    );
-};
 
+export const Home = () => {
+
+    return <div>Homepage</div>;
+
+};
