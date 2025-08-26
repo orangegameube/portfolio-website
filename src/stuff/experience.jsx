@@ -66,7 +66,26 @@ function Exper() {
                 <div style={expcard}>
                     <h4>US Air Force Aim High Flight Academy</h4>
                     <h6>May 2024 - Jun 2024</h6>
-                    <p></p>
+                    <p>Selected for 15% acceptance rate prestigious fully paid summer program for United States high schoolers
+                        to obtain ~15 hours of flight training. Studied weather theory, aerodynamics, and FAA regulations 
+                        at California Aeronautical University.</p>
+                </div>
+
+                <h3 style={exphead}>Organizations</h3>
+
+                <div style={expcard}>
+                    <h4>AIAA High School Subcommittee International Board, Internal Communications Manager</h4>
+                    <h6>Aug 2025 - Aug 2026</h6>
+                    <p>One of three board members supervising an international community of 200+ high school students interested in aerospace.
+                        Working with AIAA staff to implement handbooks for aerospace clubs across the nation and design challenges.
+                    </p>
+                </div>
+                <div style={expcard}>
+                    <h4>STEM Next Flight Crew 2025</h4>
+                    <h6>Mar 2025 - Jun 2026</h6>
+                    <p>Nationally selected to represent the state of Texas in STEM education and pursue a project to spread STEM to communities
+                        with a lack of support for afterschool programs.
+                    </p>
                 </div>
 
                 <h3 style={exphead}>Education</h3>
@@ -74,9 +93,8 @@ function Exper() {
                 <div style={expcard}>
                     <h4>Incarnate Word High School</h4>
                     <h6>Aug 2022 - Jun 2026</h6>
-                    <p>Selected for 15% acceptance rate prestigious fully paid summer program for United States high schoolers
-                        to obtain ~15 hours of flight training. Studied weather theory, aerodynamics, and FAA regulations 
-                        at California Aeronautical University.
+                    <p>Activities and societies: Dynamic Eclipse Broadcast (DEB) Initiative team leader, Shamrock Racing (Alamo City Electrathon
+                        team) Founder & Team Lead, National Honor Society, Mu Alpha Theta, Science National Honor Society
                     </p>
                 </div>
                 <div style={expcard}>

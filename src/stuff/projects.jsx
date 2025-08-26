@@ -33,7 +33,7 @@ function Proj() {
                 <p style={sksub}>A list of technical projects I've made with GitHub links to the documentation.</p>
             </div>
 
-            <div className="w=3/4 m-auto">
+            <div className=" m-8">
                 <div className="mt-10">
                     <Slider {...settings}>
                         {data.map((d) => (
@@ -45,7 +45,7 @@ function Proj() {
                                 <div className="flex flex-col justify-center items-center gap-4 p-4">
                                     <p className="text-xl font-semibold">{d.name}</p>
                                     <p className="text-center">{d.text}</p>
-                                    <a className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-t-xl" href={d.link}>Github</a>
+                                    <a href={d.link}><button className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-t-xl" >Github</button></a>
                                 </div>
                             </div>
                         ))}

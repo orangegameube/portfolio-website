@@ -4,6 +4,7 @@ import About from '../stuff/aboutme.jsx'
 import Card from '../stuff/card';
 import Exper from '../stuff/experience.jsx'
 import Projs from '../stuff/projects.jsx'
+import Contact from '../stuff/contact.jsx'
 
 export const Home = () => {
 
@@ -14,6 +15,7 @@ export const Home = () => {
             <Card />
             <Exper />
             <Projs />
+            <Contact />
         </div>
     );
 

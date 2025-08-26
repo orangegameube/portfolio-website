@@ -31,7 +31,6 @@ function Card() {
         borderRadius: "15%",
         boxShadow: "5px 10px 18px #888888",
         padding: "40px",
-        aspectRatio: "3.5/3"
     };
 
     const cardhead = {
