@@ -22,7 +22,7 @@ function About() {
         <div style={bigbox}>
             <h1 style={meirl}>Rory Sorola</h1>
             <p style={abtp}>I am a student with a passion for <b>programming</b>, <b>engineering</b>, and <b>scientific research</b>. 
-                My specific areas of interest include high-energy physics, quantum computing, and observational astronomy.
+                My specific areas of interest include quark interactions in high-energy physics, laser photonics and optics, and mathematical modelling.
                 I am always looking for opportunities to expand both <b>my own</b> and <b>others' understanding of science.</b>
 </p>
         </div>

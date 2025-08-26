@@ -1,0 +1,9 @@
+#footercont {
+    display: flex;
+    justify-content: center;
+}
+
+#thing {
+    transform: translateY(50%);
+    margin: 0% 2%
+}

@@ -1,3 +1,17 @@
 #navbar {
+    display: block;
     position: fixed;
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color:black
+}
+
+#home {
+    padding-bottom: 70px;
+}
+
+#homelink {
+    font-weight: bold;
 }

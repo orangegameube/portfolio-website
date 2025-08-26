@@ -1,8 +1,13 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../stuff/projects.css"
 
 function Proj() {
+
+    const sect = {
+        paddingTop: '30px'
+    }
 
     const skhead = {
         color: "DodgerBlue",
@@ -16,6 +21,24 @@ function Proj() {
         padding: "10px",
     }
 
+    const SamplePrevArrow = (props) => {
+      const { className, style, onClick } = props;
+      return(
+        <div onClick={onClick} className={`arrow ${className}`} >
+          <AiOutlineArrowLeft class="arrows" style={{color:"white"}}/>
+        </div>
+      )
+      }
+
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return(
+            <div onClick={onClick} className={`arrow ${className}`} >
+            <AiOutlineArrowRight class="arrows" style={{color:"white"}}/>
+            </div>
+        )
+        }
+
     const settings = {
         dots: true,
         infinite: true,
@@ -26,14 +49,14 @@ function Proj() {
 
     return (
 
-        <div id="Projects">
+        <div id="Projects" style={sect}>
 
             <div>
                 <h2 style={skhead}>Projects</h2>
                 <p style={sksub}>A list of technical projects I've made with GitHub links to the documentation.</p>
             </div>
 
-            <div className=" m-8">
+            <div className=" m-8 mb-20">
                 <div className="mt-10">
                     <Slider {...settings}>
                         {data.map((d) => (

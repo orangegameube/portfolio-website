@@ -2,6 +2,10 @@
 
 function Exper() {
 
+    const sect = {
+        paddingTop: '50px'
+    }
+
     const skhead = {
         color: "DodgerBlue",
         fontSize: "40px",
@@ -30,7 +34,7 @@ function Exper() {
 
     return (
 
-        <div id="Experience">
+        <div id="Experience" style={sect}>
             <h2 style={skhead}>Experience</h2>
             <p style={sksub}>A list of all of the programs and academic societies I've participated in.</p>
             <div>

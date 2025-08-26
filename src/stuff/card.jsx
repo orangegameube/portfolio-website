@@ -1,5 +1,8 @@
 function Card() {
 
+    const sect = {
+        paddingTop: '50px'
+    }
 
     const skhead = {
         color: "DodgerBlue",
@@ -61,7 +64,7 @@ function Card() {
 
 
     return (
-        <div id="Skills">
+        <div id="Skills" style={sect}>
             <h2 style={skhead}>Skillset</h2>
             <p style={sksub}>All of the technical skills I've acquired throughout my high school career.</p>
             <div style={cardCont}>
