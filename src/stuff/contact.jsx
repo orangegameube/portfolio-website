@@ -29,24 +29,26 @@ const Contact = () => {
 
 
     return(
-        <section className="contactbox">
-            <form onSubmit={onSubmit}>
-                <h2 className="conthead">Contact Me</h2>
-                <div className="inputbox">
-                    <label className="labellab">Name</label>
-                    <input type="text" className="field" placeholder="Enter your name" name="name" required />
-                </div>
-                <div className="inputbox">
-                    <label className="labellab">Email Address</label>
-                    <input type="email" className="field" placeholder="Enter your email" name="email" required />
-                </div>
-                <div className="inputbox">
-                    <label className="labellab">Your Message</label>
-                    <textarea name="message" className="field mess" placeholder="Enter your message" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+        <div className="stbox" id="Contact">
+            <section className="contactbox">
+                <form onSubmit={onSubmit} className="myform">
+                    <h2 className="conthead">Contact Me</h2>
+                    <div className="inputbox">
+                        <label className="labellab">Name</label>
+                        <input type="text" className="field" placeholder="Enter your name" name="name" required />
+                    </div>
+                    <div className="inputbox">
+                        <label className="labellab">Email Address</label>
+                        <input type="email" className="field" placeholder="Enter your email" name="email" required />
+                    </div>
+                    <div className="inputbox">
+                        <label className="labellab">Your Message</label>
+                        <textarea name="message" className="field mess" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
     )
   
 };

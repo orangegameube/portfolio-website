@@ -26,7 +26,7 @@ function Proj() {
 
     return (
 
-        <div>
+        <div id="Projects">
 
             <div>
                 <h2 style={skhead}>Projects</h2>

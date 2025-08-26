@@ -61,7 +61,7 @@ function Card() {
 
 
     return (
-        <div>
+        <div id="Skills">
             <h2 style={skhead}>Skillset</h2>
             <p style={sksub}>All of the technical skills I've acquired throughout my high school career.</p>
             <div style={cardCont}>

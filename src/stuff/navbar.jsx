@@ -1,10 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './navbar.css'
 
-function BootstrapNav() {
+export default function NewNav() {
+
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" id='navbar' className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,5 +22,3 @@ function BootstrapNav() {
     </Navbar>
   );
 }
-
-export default BootstrapNav;

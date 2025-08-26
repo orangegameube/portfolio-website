@@ -1,4 +1,4 @@
-import BootstrapNav from '../stuff/navbar.jsx';
+import NewNav from '../stuff/navbar.jsx';
 import { DarkModeToggle } from '../stuff/togglenight.jsx';
 import About from '../stuff/aboutme.jsx'
 import Card from '../stuff/card';
@@ -10,7 +10,7 @@ export const Home = () => {
 
     return (
         <div>
-            <BootstrapNav />
+            <NewNav />
             <About />
             <Card />
             <Exper />
