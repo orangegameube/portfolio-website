@@ -86,25 +86,25 @@ function Proj() {
 const data = [
     {
         name: 'Physics Simulations',
-        img: 'public/assets/simimg.jpg',
+        img: 'src/assets/simimg.jpg',
         text: 'A collection of astrophysics simulations made for users to better visualize orbital mechanics.',
         link: 'https://github.com/orangegameube/physics-simulations'
     },
     {
         name: 'Sine Art Site (Oscillart)',
-        img: 'public/assets/oscillart.webp',
+        img: 'src/assets/oscillart.webp',
         text: 'A website that converts input musical notes into sine wave artwork. Created for the Hack Club Athena Award.',
         link: 'https://github.com/orangegameube/Sine-Art-Site'
     },
     {
         name: 'Portfolio Website',
-        img: 'public/assets/mefr.png',
+        img: 'src/assets/mefr.png',
         text: 'A website I made using React.js and Tailwind CSS to display my portfolio of skills!',
         link: 'https://github.com/orangegameube/portfolio-website'
     },
     {
         name: 'something new',
-        img: 'public/assets/sillyguy.jpg',
+        img: 'src/assets/sillyguy.jpg',
         text: 'Coming soon for Athena Award!',
         link: 'https://github.com/orangegameube'
     }

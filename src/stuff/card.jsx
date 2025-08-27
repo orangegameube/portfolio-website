@@ -69,7 +69,7 @@ function Card() {
             <p style={sksub}>All of the technical skills I've acquired throughout my high school career.</p>
             <div style={cardCont}>
                 <div style={cardit} id="Software">
-                    <img style={cimg} src="public/assets/software.png" alt="An image of a computer monitor."></img>
+                    <img style={cimg} src="src/assets/software.png" alt="An image of a computer monitor."></img>
                     <h2 style={cardhead}>Programming</h2>
                     <p style={para}>Programming languages and software I'm proficient in.</p>
                     <ul style={cardlist}>
@@ -83,8 +83,8 @@ function Card() {
                     </ul>
                 </div>
                 <div style={cardit} id="Hardware">
-                    <img style={cimg} src="public/assets/hardware.png" alt="An image of a wrench and a microcontroller."></img>
-                    <h2 style={cardhead}>Hardware Skills</h2>
+                    <img style={cimg} src="src/assets/hardware.png" alt="An image of a wrench and a microcontroller."></img>
+                    <h2 style={cardhead}>Hardware</h2>
                     <p style={para}>Skills related to hardware and engineering I know well.</p>
                     <ul style={cardlist}>
                         <li style={litem}>EasyEDA, KiCad</li>
@@ -95,7 +95,7 @@ function Card() {
                     </ul>
                 </div>
                 <div style={cardit} id="Research">
-                    <img style={cimg} src="public/assets/research.png" alt="An image of a paper"></img>
+                    <img style={cimg} src="src/assets/research.png" alt="An image of a paper"></img>
                     <h2 style={cardhead}>Research</h2>
                     <p style={para}>Skills I've gained through research projects and experiences.</p>
                     <ul style={cardlist}>
@@ -107,7 +107,7 @@ function Card() {
                     </ul>
                 </div>
                 <div style={cardit} id="Certifications">
-                    <img style={cimg} src="public/assets/certs.png" alt="An image of a license."></img>
+                    <img style={cimg} src="src/assets/certs.png" alt="An image of a license."></img>
                     <h2 style={cardhead}>Certifications</h2>
                     <p style={para}>My relevant licenses and certifications.</p>
                     <ul style={cardlist}>
