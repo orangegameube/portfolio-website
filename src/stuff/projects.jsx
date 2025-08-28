@@ -1,7 +1,12 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../stuff/projects.css"
+import "../stuff/projects.css";
+
+import phys from '../assets/simimg.jpg';
+import osc from '../assets/oscillart.webp';
+import me from '../assets/mefr.png';
+import cat from '../assets/sillyguy.jpg';
 
 function Proj() {
 
@@ -86,25 +91,25 @@ function Proj() {
 const data = [
     {
         name: 'Physics Simulations',
-        img: 'src/assets/simimg.jpg',
+        img: phys,
         text: 'A collection of astrophysics simulations made for users to better visualize orbital mechanics.',
         link: 'https://github.com/orangegameube/physics-simulations'
     },
     {
         name: 'Sine Art Site (Oscillart)',
-        img: 'src/assets/oscillart.webp',
+        img: osc,
         text: 'A website that converts input musical notes into sine wave artwork. Created for the Hack Club Athena Award.',
         link: 'https://github.com/orangegameube/Sine-Art-Site'
     },
     {
         name: 'Portfolio Website',
-        img: 'src/assets/mefr.png',
+        img: me,
         text: 'A website I made using React.js and Tailwind CSS to display my portfolio of skills!',
         link: 'https://github.com/orangegameube/portfolio-website'
     },
     {
         name: 'something new',
-        img: 'src/assets/sillyguy.jpg',
+        img: cat,
         text: 'Coming soon for Athena Award!',
         link: 'https://github.com/orangegameube'
     }
